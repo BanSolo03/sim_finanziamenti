@@ -4,7 +4,7 @@ import { RequestsModule } from './requests/requests.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot(process.env.MONGODB_URI),
+    MongooseModule.forRoot('mongodb+srv://nikibano:Qu%40r%40nt%40cinque45!@dbcrypto.eoqbyfz.mongodb.net/Finanziamenti'),
     RequestsModule
   ],
   controllers: [],
